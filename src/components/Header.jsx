@@ -28,6 +28,7 @@ function Header() {
           <NavLink to="/" onClick={closeMenu} end>Home</NavLink>
           <NavLink to="/subjects" onClick={closeMenu}>Subjects</NavLink>
           <NavLink to="/tutors" onClick={closeMenu}>Our Tutors</NavLink>
+          <NavLink to="/quiz/chemistry" onClick={closeMenu}>Chemistry Quiz</NavLink>
           <NavLink to="/contact" onClick={closeMenu} className="nav-cta">
             Get Help
           </NavLink>

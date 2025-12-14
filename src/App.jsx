@@ -7,6 +7,7 @@ import Subjects from './pages/Subjects';
 import SubjectDetail from './pages/SubjectDetail';
 import Tutors from './pages/Tutors';
 import Contact from './pages/Contact';
+import ChemistryQuiz from './pages/ChemistryQuiz';
 import './App.css';
 
 // Scroll to top on route change
@@ -32,6 +33,7 @@ function App() {
           <Route path="/subjects/:subjectId" element={<SubjectDetail />} />
           <Route path="/tutors" element={<Tutors />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/quiz/chemistry" element={<ChemistryQuiz />} />
         </Routes>
         <Footer />
       </div>

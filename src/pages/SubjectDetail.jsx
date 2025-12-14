@@ -41,6 +41,11 @@ function SubjectDetail() {
             <Link to="/contact" state={{ subject: subject.name }} className="btn btn-primary btn-lg">
               Get {subject.name} Help
             </Link>
+            {subject.id === 'chemistry' && (
+              <Link to="/quiz/chemistry" className="btn btn-secondary btn-lg">
+                Practice with Quiz
+              </Link>
+            )}
           </div>
         </div>
       </section>
